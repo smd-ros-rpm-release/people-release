@@ -1,0 +1,8 @@
+ros-hydro-people-msgs (1.0.1-0precise) precise; urgency=high
+
+  * catkinizing
+  * Contributors: Dan Lazewatsky
+
+ -- Dan Lazewatsky <dan@lazewatsky.com>  Thu, 27 Feb 2014 06:00:00 -0000
+
+
