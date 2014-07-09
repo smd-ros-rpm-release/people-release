@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 2.8.3)
 project(people_msgs)
 # Load catkin and all dependencies required for this package
 # TODO: remove all from COMPONENTS that are not catkin packages.
-find_package(catkin REQUIRED COMPONENTS message_generation geometry_msgs)
+find_package(catkin REQUIRED COMPONENTS message_generation geometry_msgs std_msgs)
 
 # include_directories(include ${Boost_INCLUDE_DIR} ${catkin_INCLUDE_DIRS})
 # CATKIN_MIGRATION: removed during catkin migration
@@ -25,17 +25,15 @@ find_package(catkin REQUIRED COMPONENTS message_generation geometry_msgs)
 # CATKIN_MIGRATION: removed during catkin migration
 # rosbuild_init()
 
-#set the default path for built executables to the "bin" directory
-set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
-#set the default path for built libraries to the "lib" directory
-set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
-
 #uncomment if you have defined messages
 add_message_files(
-  DIRECTORY msg
-  FILES
-  PositionMeasurementArray.msg
-  PositionMeasurement.msg
+   DIRECTORY msg
+   FILES
+   People.msg
+   Person.msg
+   PersonStamped.msg
+   PositionMeasurementArray.msg
+   PositionMeasurement.msg
 )
 #uncomment if you have defined services
 #add_service_files(
@@ -56,7 +54,7 @@ add_message_files(
 #target_link_libraries(example ${PROJECT_NAME})
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
-  DEPENDENCIES geometry_msgs std_msgs
+   DEPENDENCIES   geometry_msgs std_msgs
 )
 
 # catkin_package parameters: http://ros.org/doc/groovy/api/catkin/html/dev_guide/generated_cmake_api.html#catkin-package
