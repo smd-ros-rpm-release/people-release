@@ -1,0 +1,12 @@
+Source: ros-hydro-people-velocity-tracker
+Section: misc
+Priority: extra
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-people-msgs
+Homepage: http://ros.org/wiki/people_velocity_tracker
+Standards-Version: 3.9.2
+
+Package: ros-hydro-people-velocity-tracker
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-easy-markers, ros-hydro-geometry-msgs, ros-hydro-leg-detector, ros-hydro-people-msgs, ros-hydro-rospy
+Description: Track the output of the leg_detector to indicate the velocity of person.
