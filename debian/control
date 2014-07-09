@@ -1,0 +1,12 @@
+Source: ros-hydro-leg-detector
+Section: misc
+Priority: extra
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-bfl, ros-hydro-catkin, ros-hydro-dynamic-reconfigure, ros-hydro-geometry-msgs, ros-hydro-image-geometry, ros-hydro-laser-geometry, ros-hydro-people-msgs, ros-hydro-people-tracking-filter, ros-hydro-roscpp, ros-hydro-sensor-msgs, ros-hydro-std-msgs, ros-hydro-std-srvs, ros-hydro-tf, ros-hydro-visualization-msgs
+Homepage: http://ros.org/wiki/leg_detector
+Standards-Version: 3.9.2
+
+Package: ros-hydro-leg-detector
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-bfl, ros-hydro-dynamic-reconfigure, ros-hydro-geometry-msgs, ros-hydro-image-geometry, ros-hydro-laser-filters, ros-hydro-laser-geometry, ros-hydro-map-laser, ros-hydro-people-msgs, ros-hydro-people-tracking-filter, ros-hydro-roscpp, ros-hydro-sensor-msgs, ros-hydro-std-msgs, ros-hydro-std-srvs, ros-hydro-tf, ros-hydro-visualization-msgs
+Description: Leg Detector using a machine learning approach to find leg-like patterns of laser scanner readings.
