@@ -1,3 +1,30 @@
+## people (groovy) - 1.0.6-0
+
+The packages in the `people` repository were released into the `groovy` distro by running `/usr/bin/bloom-release people --track groovy --rosdistro groovy --new-track` on `Tue, 26 Aug 2014 16:37:24 -0000`
+
+These packages were released:
+- `face_detector`
+- `leg_detector`
+- `people`
+- `people_msgs`
+- `people_tracking_filter`
+- `people_velocity_tracker`
+
+Version of package(s) in repository `people`:
+- upstream repository: https://github.com/wg-perception/people.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.6-0`
+
+Versions of tools used:
+- bloom version: `0.5.11`
+- catkin_pkg version: `0.2.4`
+- rosdep version: `0.10.28`
+- rosdistro version: `0.3.5`
+- vcstools version: `0.1.35`
+
+
 ## people (hydro) - 1.0.4-0
 
 The packages in the `people` repository were released into the `hydro` distro by running `/usr/bin/bloom-release people --track hydro --rosdistro hydro` on `Wed, 09 Jul 2014 19:21:29 -0000`
