@@ -1,3 +1,30 @@
+## people (indigo) - 1.0.8-0
+
+The packages in the `people` repository were released into the `indigo` distro by running `/usr/bin/bloom-release people --track indigo --rosdistro indigo --new-track` on `Wed, 10 Dec 2014 21:46:01 -0000`
+
+These packages were released:
+- `face_detector`
+- `leg_detector`
+- `people`
+- `people_msgs`
+- `people_tracking_filter`
+- `people_velocity_tracker`
+
+Version of package(s) in repository `people`:
+- upstream repository: https://github.com/wg-perception/people.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.8-0`
+
+Versions of tools used:
+- bloom version: `0.5.15`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.11.0`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.35`
+
+
 ## people (groovy) - 1.0.7-0
 
 The packages in the `people` repository were released into the `groovy` distro by running `/usr/bin/bloom-release people --track groovy --rosdistro groovy` on `Sat, 30 Aug 2014 18:27:54 -0000`
